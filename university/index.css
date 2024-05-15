@@ -1,0 +1,227 @@
+header{
+    background-image: url(https://preview.colorlib.com/theme/doyoga/images/doyoga_hero_1.jpg.webp);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 50;
+}
+
+.upNav{
+    
+    max-width: 80%;
+    margin: auto auto;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.socialsupNav{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.contactupNav{
+    display: flex;
+    gap: 20px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.downNav{
+    z-index: 500;
+    max-width: 80%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.navBtns ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navBtns ul li:hover{
+    color: white;
+}
+
+.hero{
+    margin: 50px auto;
+    color: white;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 36px;
+}
+
+.featuredClasses{
+    display: flex;
+    justify-content: center;
+    padding: 6% 0;
+    flex-direction: column;
+    min-height: 60vh;
+    max-width: 80%;
+    margin: auto auto;
+}
+
+.featuredClasses .fCtitle{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.featuredClasses .fCtitle h1{
+    font-size: 32px;
+
+}
+
+.featuredClasses .fCtitle p{
+    color: grey;
+    font-size: 12px;
+
+}
+
+.carousel{
+    padding: 8% 0;
+    display: flex;
+    gap: 40px;
+}
+
+/* .slide2:hover{
+    scale: 120%;
+ 
+}
+.slide1:hover{
+    scale: 120%;
+ 
+}
+.slide3:hover{
+    scale: 120%;
+ 
+} */
+
+.slide{
+    position: relative;
+}
+
+.slide:hover{
+    scale: 120%;
+    
+}
+
+.carousel .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    z-index: 50;
+    right: 43%;
+    top: 40%;
+    color: white;
+    position: absolute;
+}
+
+.aboutUs{
+    max-width: 80%;
+    margin: 5% auto;
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+.aboutUsTitle{
+    max-width: 50%;
+}
+
+.aboutUs h2{
+    font-size: 30px;
+}
+
+.aboutUs p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+footer{
+    color: white;
+    background-color: #333333;
+    margin: auto auto;
+    min-height: 60vh;
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerAboutUs {
+
+width: 20%;
+line-height: 25px;
+}
+
+
+.footerTitle h2{
+    padding: 20px 0;
+}
+
+.footerAboutUs p{
+   color: grey;
+}
+
+.footerQuickLinks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.footerQuickLinks ul li{
+    color: rgb(172, 171, 171);
+}
+
+.socialsFooter{
+    display: flex;
+    gap: 25px;
+    color: rgb(172, 171, 171);
+    font-size: 18px;
+}
